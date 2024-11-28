@@ -14,7 +14,6 @@ def suma():
         return jsonify({"error": "Proporciona números válidos"}), 400
 
 
-
 @app.route('/resta', methods=['POST'])
 def resta():
     data = request.get_json()
@@ -25,7 +24,6 @@ def resta():
         return jsonify({"resultado": resultado})
     except (TypeError, ValueError):
         return jsonify({"error": "Proporciona números válidos"}), 400
-
 
 
 @app.route('/multiplicacion', methods=['POST'])

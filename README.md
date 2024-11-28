@@ -2,7 +2,7 @@
 
 ### ¡Hola! 🌟
 
-Bienvenid@ al repo de la clase de APIs de **Python: de cero a ML** con [Humberto Acevedo](https://github.com/BetoACE)
+Bienvenid@ al repo de la clase de APIs de **Python: de cero a ML** por [Humberto Acevedo](https://github.com/BetoACE)
 
 Aquí encontrarás todo lo que necesitas para convertirte en un máster de las APIs 💥
 
@@ -28,6 +28,18 @@ Aquí encontrarás todo lo que necesitas para convertirte en un máster de las A
    ```
 3. 
 
+
+## Explicación de los ejercicios:
+<details>
+  <summary>API de saludo</summary>
+
+  En este primer script, el propósito es...
+
+  ```python
+  print("¡Hola mundo!")
+  ```
+</details> 
+
 ---
-## 😦 Chill
-Mientras creaba los contenidos de esta sesión 🤓 escuchaba [este EP](https://open.spotify.com/intl-es/album/353uBBfNLMFgXDJkTWSpWe?si=w0o0_HOOTF-MIjuiRbPMJA)
+## 🎧 Chill & Code
+Mientras creaba los contenidos de esta sesión escuchaba [este EP](https://open.spotify.com/intl-es/album/353uBBfNLMFgXDJkTWSpWe?si=w0o0_HOOTF-MIjuiRbPMJA)
