@@ -29,7 +29,7 @@ Aquí encontrarás todo lo que necesitas para convertirte en un máster de las A
 3. 
 
 
-## Explicación de los ejercicios:
+## 🧠 Explicación de los ejercicios:
 <details>
   <summary>API de saludo</summary>
 
