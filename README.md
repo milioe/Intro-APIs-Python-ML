@@ -41,5 +41,9 @@ Aquí encontrarás todo lo que necesitas para convertirte en un máster de las A
 </details> 
 
 
+## 🫕 Preguntas frecuentes:
+
+
+
 ## 🎧 Chill & Code
 Mientras creaba los contenidos de esta sesión escuchaba [este EP](https://open.spotify.com/intl-es/album/353uBBfNLMFgXDJkTWSpWe?si=w0o0_HOOTF-MIjuiRbPMJA)
