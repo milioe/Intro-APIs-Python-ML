@@ -24,4 +24,3 @@ Bienvenid@ al repo de la clase de APIs de **Python: de cero a ML** con el Prof. 
 ---
 ## 😦 Chill
 Mientras creaba los contenidos de esta sesión 🤓, escuchaba [este EP](https://open.spotify.com/intl-es/album/353uBBfNLMFgXDJkTWSpWe?si=w0o0_HOOTF-MIjuiRbPMJA).
-# Intro-APIs-Python-ML
