@@ -1,0 +1,45 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de usuario
+*.log
+*.env
+*.local
+
+# Dependencias
+node_modules/
+vendor/
+
+# Archivos de compilación
+dist/
+build/
+*.class
+*.o
+*.so
+*.pyc
+*.pyo
+*.pdb
+*.exe
+
+# IDEs y editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos temporales
+*.tmp
+*.bak
+*.old
+*.orig
+*.swp
+
+# Otros
+coverage/
+*.tgz
+*.lock
+!.gitkeep
