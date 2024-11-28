@@ -2,7 +2,7 @@
 
 ### ¡Hola! 🌟
 
-Bienvenid@ al repo de la clase de APIs de **Python: de cero a ML** con [Humberto Acevedo](https://github.com/BetoACE) 🤓. 
+Bienvenid@ al repo de la clase de APIs de **Python: de cero a ML** con [Humberto Acevedo](https://github.com/BetoACE)
 
 Aquí encontrarás todo lo que necesitas para convertirte en un máster de las APIs 💥
 
@@ -22,6 +22,11 @@ Aquí encontrarás todo lo que necesitas para convertirte en un máster de las A
    ```bash
    git clone https://github.com/milioe/Intro-APIs-Python-ML.git
    ```
+2. Instala las dependencias que vienen en `requirements.txt` con el siguiente comando:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. 
 
 ---
 ## 😦 Chill
