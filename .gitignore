@@ -43,3 +43,6 @@ coverage/
 *.tgz
 *.lock
 !.gitkeep
+
+
+.cache

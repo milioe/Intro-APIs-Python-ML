@@ -3,7 +3,7 @@ import pandas as pd
 from flask import Flask, request, jsonify
 
 # Cargar el modelo entrenado de regresión lineal
-with open("modelo_regresion_lineal.pkl", "rb") as f:
+with open("Misc/modelo_regresion_lineal.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Crear la API

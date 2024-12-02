@@ -30,7 +30,7 @@ data = pd.DataFrame({
     "educacion": educacion,
     "experiencia": experiencia,
     "horas_semana": horas_semana,
-    "ingreso": ingreso
+    "ingreso": ingreso 
 })
 
 # Dividir en conjunto de entrenamiento y prueba
@@ -47,7 +47,7 @@ y_pred = model.predict(X_test)
 print(f"Error cuadrático medio: {mean_squared_error(y_test, y_pred)}")
 
 # Guardar el modelo en un archivo pickle
-with open("modelo_regresion_lineal.pkl", "wb") as f:
+with open("Misc/modelo_regresion_lineal.pkl", "wb") as f:
     pickle.dump(model, f)
 
 print("Modelo guardado como 'modelo_regresion_lineal.pkl'")
