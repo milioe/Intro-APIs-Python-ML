@@ -33,7 +33,7 @@ Aquí encontrarás todo lo que necesitas para convertirte en un máster de las A
 
 ## Recursos
 
-* [Slides de la sesión]()
+* [Slides de la sesión](https://github.com/milioe/Intro-APIs-Python-ML/blob/main/PythonApis.pdf)
 * [Documentación de API de Spotify](https://developer.spotify.com/documentation/web-api)
 * [Documentación INEGI](https://www.inegi.org.mx/servicios/api_indicadores.html)
 * [Documentación OpenAI](https://platform.openai.com/docs/overview)
