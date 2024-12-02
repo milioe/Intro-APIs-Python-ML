@@ -22,7 +22,7 @@ Aquí encontrarás todo lo que necesitas para convertirte en un máster de las A
    ```bash
    git clone https://github.com/milioe/Intro-APIs-Python-ML.git
    ```
-2. Abre VSC, lo puedes descagar desde [aca](https://code.visualstudio.com/download). Dejo el link a un [tutorial](https://youtu.be/-IyA_Yvs8IQ?si=DjgaJIntR7LMrh4J) para correr python  
+2. Abre VSC, lo puedes descagar desde [acá](https://code.visualstudio.com/download). Dejo el link a un [tutorial](https://youtu.be/-IyA_Yvs8IQ?si=DjgaJIntR7LMrh4J) para correr python  
 3. Instala las dependencias que vienen en `requirements.txt` con el siguiente comando:
    ```bash
    pip install -r requirements.txt
