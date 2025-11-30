@@ -1,8 +1,9 @@
 from flask import Flask, request, jsonify
 
+# Incializamos la aplicación
 app = Flask(__name__)
 
-@app.route('/saludo', methods=['POST'])
+@app.route('/saludo', methods=['POST']) # Inicializamos el endpoint de /saludo
 def saludo():
     
     # Obtener datos JSON del cuerpo de la solicitud
