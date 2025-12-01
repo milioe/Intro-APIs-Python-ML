@@ -61,10 +61,6 @@ pip install -r requirements.txt
 
 ## 🎧 Chill & Code
 
-Mientras creaba los contenidos de esta sesión escuchaba este EP 🎶
-
-[![Spotify](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/)
+Mientras creaba los contenidos de esta sesión escuchaba [![este álbum](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/)
 
 ---
-
-⭐ Si te gustó el repo, ¡dale una estrellita!
