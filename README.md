@@ -1,66 +1,150 @@
-# 🚀👩‍💻 Intro a las APIs
+# 🚀 Intro a las APIs con Python y ML
 
 ¡Hola! 🌟
 
-Bienvenid@ al repo de la clase de **APIs de Python: de cero a ML** por [Humberto Acevedo](https://github.com/milioe)
+Bienvenid@ al repositorio del curso **"APIs con Python: de consumir a construir"** 
 
-Aquí encontrarás todo lo que necesitas para convertirte en un máster de las APIs 💥
+Aquí aprenderás desde cómo consumir APIs externas hasta cómo construir tu propia API con modelos de Machine Learning.
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+Intro-APIs-Python-ML/
+│
+├── 1_Consumir_APIs.ipynb       # Clase 1: Consumir APIs externas
+├── 2_Training_clasificacion.ipynb  # Clase 2: Entrenar modelo de clasificación
+├── 3_Training_PCA.ipynb        # Clase 2: Entrenar modelo de clustering
+│
+├── API_Prediction/             # Backend: API con FastAPI
+│   ├── main.py
+│   ├── routers/
+│   ├── models/                 # Archivos .pkl
+│   └── README.md
+│
+├── App_gradio/                 # Frontend: Interfaz con Gradio
+│   ├── app.py
+│   └── README.md
+│
+└── README.md                   # Este archivo
+```
+
+---
+
+## 📚 Contenido por Carpeta
+
+### 📓 Notebooks
+
+| Archivo | Descripción |
+|---------|-------------|
+| `1_Consumir_APIs.ipynb` | Cómo consumir APIs: INEGI, Banxico, yfinance, Our World in Data, Gemini |
+| `2_Training_clasificacion.ipynb` | Entrenamiento de Random Forest para predecir si un cliente contratará |
+| `3_Training_PCA.ipynb` | Clustering con K-Means + PCA para segmentación de clientes |
+
+> 💡 **Tip:** Los notebooks tienen un botón de **"Open in Colab"** al inicio. Puedes correrlos directamente en Google Colab sin necesidad de instalar nada.
+
+### 🔧 API_Prediction/
+
+Backend construido con **FastAPI** que expone los modelos entrenados.
+
+| Endpoint | Descripción |
+|----------|-------------|
+| `GET /docs` | Documentación Swagger |
+| `GET /health` | Estado de la API |
+| `POST /predict/clasificacion` | ¿Contratará el cliente? |
+| `POST /predict/segmento` | ¿A qué segmento pertenece? |
+
+**Ejecución:**
+```bash
+cd API_Prediction
+pip install -r requirements.txt
+python -m uvicorn main:app --reload
+```
+
+### 🖥️ App_gradio/
+
+Frontend con **Gradio** para interactuar visualmente con la API.
+
+**Ejecución:**
+```bash
+cd App_gradio
+pip install gradio requests
+python app.py
+```
+
+---
+
+## 🛠️ Instalación Rápida
+
+```bash
+# 1. Clonar el repo
+git clone https://github.com/milioe/Intro-APIs-Python-ML.git
+cd Intro-APIs-Python-ML
+
+# 2. Instalar dependencias generales
+pip install -r requirements.txt
+
+# 3. Correr la API (en una terminal)
+cd API_Prediction
+python -m uvicorn main:app --reload
+
+# 4. Correr el frontend (en otra terminal)
+cd App_gradio
+python app.py
+```
+
+---
+
+## 🎯 Flujo del Curso
+
+```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│  1. Consumir    │     │  2. Entrenar    │     │  3. Construir   │
+│     APIs        │ ──► │    Modelos      │ ──► │     API         │
+│                 │     │                 │     │                 │
+│  INEGI, Banxico │     │  Random Forest  │     │  FastAPI        │
+│  yfinance       │     │  K-Means + PCA  │     │  + Gradio       │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+```
+
+---
+
+## 📖 Recursos
+
+### APIs Económicas
+- [INEGI API](https://www.inegi.org.mx/servicios/api_indicadores.html)
+- [Banxico API](https://www.banxico.org.mx/SieAPIRest/service/v1/)
+- [Our World in Data](https://ourworldindata.org/)
+- [World Bank](https://data.worldbank.org/)
+- [FRED (St. Louis Fed)](https://fred.stlouisfed.org/docs/api/fred/)
+
+### SDKs y Librerías
+- [yfinance](https://github.com/ranaroussi/yfinance) - Datos financieros
+- [Google Gemini](https://ai.google.dev/) - IA generativa
+
+### Documentación
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Gradio](https://gradio.app/)
+- [scikit-learn](https://scikit-learn.org/)
 
 ---
 
 ## ☎️ Contacto
 
-¿Dudas, comentarios o solo quieres saludar? ¡Estoy aquí para ayudarte! 👇
+¿Dudas, comentarios o sugerencias?
 
-✉️ **Email:** emilio@milioe.com
-
----
-
-## 🛠️ ¿Cómo correr los códigos?
-
-1. Clona este repo, corre este comando en tu terminal o da click en `<> Code` (botón verde), descargar el ZIP y abrir la carpeta en VSC.
-
-```bash
-git clone https://github.com/milioe/Intro-APIs-Python-ML.git
-```
-
-2. Abre VSC, lo puedes descagar desde [acá](https://code.visualstudio.com/). Dejo el link a un [tutorial para correr python](https://code.visualstudio.com/docs/python/python-tutorial)
-
-3. Instala las dependencias que vienen en `requirements.txt` con el siguiente comando:
-
-```bash
-pip install -r requirements.txt
-```
-
-4. ¡Corre los códigos!
-
----
-
-## 📚 Recursos
-
-- [Slides de la sesión](https://github.com/milioe/Intro-APIs-Python-ML/blob/main/PythonApis.pdf)
-- [Documentación de API de Spotify](https://developer.spotify.com/documentation/web-api)
-- [Documentación INEGI](https://www.inegi.org.mx/servicios/api_indicadores.html)
-- [Documentación OpenAI](https://platform.openai.com/docs/api-reference)
-- [APIs para economistas](https://github.com/milioe/APIs-for-economists)
-- [Our World in Data](https://ourworldindata.org/)
-- [World Bank](https://data.worldbank.org/)
-- [Banxico](https://www.banxico.org.mx/SieAPIRest/service/v1/)
-- [St. Louis Fed](https://fred.stlouisfed.org/docs/api/fred/)
-
----
-
-## 🧠 Explicación de los ejercicios:
-
-1. **API de saludo personalizada**
-2. **API de suma de números**
-3. **API de operaciones matemáticas** (diferentes endpoints)
-4. **API de predicción con modelo de Machine Learning**
+✉️ **Email:** emilio@milioe.com  
+🐙 **GitHub:** [@milioe](https://github.com/milioe)
 
 ---
 
 ## 🎧 Chill & Code
 
-Mientras creaba los contenidos de esta sesión escuchaba [![este álbum](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/)
+Mientras creaba los contenidos de este curso escuchaba [![este álbum](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/intl-es/album/5o2sEyIX07DbCg86qRWOOC?si=6Gdre0prRIWD_JHAEPWDpA)
 
 ---
+
+## 📝 Licencia
+
+Este proyecto es de uso educativo. Siéntete libre de usarlo, modificarlo y compartirlo.
